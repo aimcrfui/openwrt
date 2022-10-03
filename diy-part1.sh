@@ -19,3 +19,6 @@ echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 
 # 晶晨宝盒
 svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
+
+# v2raya
+git clone https://github.com/zxlhhyccc/luci-app-v2raya package/luci-app-v2raya
