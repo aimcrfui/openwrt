@@ -19,6 +19,9 @@ echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 
 # 晶晨宝盒
 svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
+sed -i "s|https://github.com/breakings/OpenWrt|https://github.com/aimcrfui/Flippy-D|g" package/luci-app-amlogic/root/etc/config/amlogic
+sed -i "s|ARMv8|s905d|g" package/luci-app-amlogic/root/etc/config/amlogic
+sed -i "s|opt/kernel|kernel|g" package/luci-app-amlogic/root/etc/config/amlogic
 
 # v2raya
 git clone https://github.com/zxlhhyccc/luci-app-v2raya package/luci-app-v2raya
