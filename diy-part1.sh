@@ -23,5 +23,3 @@ sed -i "s|https://github.com/breakings/OpenWrt|https://github.com/aimcrfui/Flipp
 sed -i "s|ARMv8|s905d|g" package/luci-app-amlogic/root/etc/config/amlogic
 sed -i "s|opt/kernel|kernel|g" package/luci-app-amlogic/root/etc/config/amlogic
 
-# v2raya
-git clone https://github.com/zxlhhyccc/luci-app-v2raya package/luci-app-v2raya
